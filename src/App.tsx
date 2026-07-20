@@ -41,6 +41,13 @@ const CAPSULE_LABELS: Record<CapsuleRarity, string> = {
   cheerCard: "응원 카드",
 };
 
+/** 한국어 목적격 조사(을/를)를 마지막 글자 받침 유무에 맞춰 고른다. */
+function withObjectParticle(word: string): string {
+  const lastChar = word.charCodeAt(word.length - 1) - 0xac00;
+  const hasBatchim = lastChar >= 0 && lastChar <= 11171 && lastChar % 28 !== 0;
+  return `${word}${hasBatchim ? "을" : "를"}`;
+}
+
 type Screen = "home" | "session" | "planet" | "sentenceLens";
 
 function defaultUserState(): UserState {
@@ -433,7 +440,7 @@ function App() {
               }}
             >
               <div style={{ fontSize: 20, fontWeight: 700 }}>
-                {CAPSULE_LABELS[capsuleRarity]}를 획득했어요!
+                {withObjectParticle(CAPSULE_LABELS[capsuleRarity])} 획득했어요!
               </div>
               <button
                 type="button"
