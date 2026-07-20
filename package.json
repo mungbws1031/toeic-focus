@@ -1,0 +1,32 @@
+{
+  "name": "toeic-focus",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "포커스토익 — ADHD 학습자를 위한 토익 학습 앱",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dexie": "^4.0.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ts-fsrs": "^4.6.1",
+    "vite-plugin-pwa": "^0.21.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "fake-indexeddb": "^6.2.5",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^3.2.7"
+  }
+}

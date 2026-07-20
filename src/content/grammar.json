@@ -1,0 +1,202 @@
+[
+  {
+    "id": "g01",
+    "title": "전치사 + 동명사",
+    "explanation": "전치사 뒤에는 동사원형이 아니라 동명사(-ing)가 와야 한다.",
+    "examples": [
+      {
+        "sentence": "The manager is responsible for _____ the new employees before their first day.",
+        "blank": "training",
+        "options": ["train", "trains", "training", "trained"],
+        "correctIndex": 2
+      },
+      {
+        "sentence": "Instead of _____ the report by email, please submit it in person.",
+        "blank": "sending",
+        "options": ["send", "sent", "to send", "sending"],
+        "correctIndex": 3
+      },
+      {
+        "sentence": "The board postponed the decision without _____ all the financial data.",
+        "blank": "reviewing",
+        "options": ["review", "reviewed", "reviewing", "to review"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "g02",
+    "title": "관계대명사",
+    "explanation": "선행사가 사람이면 who/whom, 사물이면 which, 소유격은 whose를 쓴다.",
+    "examples": [
+      {
+        "sentence": "The employee _____ submitted the proposal received a bonus.",
+        "blank": "who",
+        "options": ["which", "who", "whose", "where"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "This is the software _____ features were recently upgraded.",
+        "blank": "whose",
+        "options": ["who", "which", "whose", "that"],
+        "correctIndex": 2
+      },
+      {
+        "sentence": "The contract, _____ was signed last week, includes a confidentiality clause.",
+        "blank": "which",
+        "options": ["who", "which", "whom", "what"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "g03",
+    "title": "분사구문 (현재분사/과거분사 수식)",
+    "explanation": "능동·진행 의미면 현재분사(-ing), 수동·완료 의미면 과거분사(p.p.)를 명사 앞뒤에서 수식어로 쓴다.",
+    "examples": [
+      {
+        "sentence": "_____ the budget report, the finance team found several errors.",
+        "blank": "Reviewing",
+        "options": ["Review", "Reviewing", "Reviewed", "To review"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "The documents _____ on the desk need to be filed by noon.",
+        "blank": "left",
+        "options": ["leave", "left", "leaving", "to leave"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "_____ with the results, the director approved the expansion plan.",
+        "blank": "Satisfied",
+        "options": ["Satisfy", "Satisfying", "Satisfied", "To satisfy"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "g04",
+    "title": "동명사 vs to부정사",
+    "explanation": "동사에 따라 목적어로 동명사만, to부정사만, 혹은 둘 다 취하는 경우가 다르다(예: consider+동명사, decide+to부정사).",
+    "examples": [
+      {
+        "sentence": "The committee decided _____ the meeting until next Monday.",
+        "blank": "to postpone",
+        "options": ["postponing", "to postpone", "postpone", "postponed"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "Please consider _____ your feedback before the survey closes.",
+        "blank": "submitting",
+        "options": ["submit", "to submit", "submitting", "submitted"],
+        "correctIndex": 2
+      },
+      {
+        "sentence": "The firm plans _____ its operations into new markets next year.",
+        "blank": "to expand",
+        "options": ["expanding", "expand", "to expand", "expanded"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "g05",
+    "title": "비교급",
+    "explanation": "형용사·부사의 비교급은 '-er' 또는 'more + 원급'으로 만들고, 뒤에 than이 온다.",
+    "examples": [
+      {
+        "sentence": "The new printer works _____ than the old one.",
+        "blank": "more efficiently",
+        "options": ["efficient", "more efficient", "more efficiently", "most efficiently"],
+        "correctIndex": 2
+      },
+      {
+        "sentence": "This year's profits were _____ than last year's.",
+        "blank": "higher",
+        "options": ["high", "higher", "highest", "more high"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "Customer satisfaction is _____ important than short-term profit for our brand.",
+        "blank": "more",
+        "options": ["much", "more", "most", "very"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "g06",
+    "title": "접속부사",
+    "explanation": "however, therefore, in addition 등 접속부사는 문장과 문장을 논리적으로 연결하며, 보통 세미콜론이나 마침표 뒤 콤마와 함께 쓴다.",
+    "examples": [
+      {
+        "sentence": "Sales dropped in the first quarter; _____, the company decided to cut marketing costs.",
+        "blank": "therefore",
+        "options": ["however", "therefore", "although", "meanwhile"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "The flight was delayed by two hours; _____, most passengers missed their connections.",
+        "blank": "consequently",
+        "options": ["consequently", "otherwise", "similarly", "instead"],
+        "correctIndex": 0
+      },
+      {
+        "sentence": "The proposal was well received; _____, some board members had concerns about the budget.",
+        "blank": "however",
+        "options": ["therefore", "moreover", "however", "likewise"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "g07",
+    "title": "수동태",
+    "explanation": "행위의 대상이 주어가 될 때 'be + p.p.' 형태의 수동태를 쓴다.",
+    "examples": [
+      {
+        "sentence": "The annual report _____ by the finance team every January.",
+        "blank": "is prepared",
+        "options": ["prepares", "is prepared", "prepared", "has prepared"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "All applications _____ carefully before the interview stage.",
+        "blank": "are reviewed",
+        "options": ["review", "reviewing", "are reviewed", "reviewed"],
+        "correctIndex": 2
+      },
+      {
+        "sentence": "The new policy _____ to all employees at the meeting yesterday.",
+        "blank": "was announced",
+        "options": ["announced", "was announced", "announces", "announcing"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "g08",
+    "title": "가정법 (조건문)",
+    "explanation": "현재 사실과 반대되는 가정은 'If + 과거형, 주어 + would + 동사원형' 구조를 쓴다.",
+    "examples": [
+      {
+        "sentence": "If the shipment _____ on time, we would not lose the client.",
+        "blank": "arrived",
+        "options": ["arrives", "arrived", "will arrive", "has arrived"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "If I _____ the budget, I would hire two more designers.",
+        "blank": "had",
+        "options": ["have", "had", "will have", "having"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "The project would succeed if the team _____ more resources.",
+        "blank": "received",
+        "options": ["receives", "received", "will receive", "receiving"],
+        "correctIndex": 1
+      }
+    ]
+  }
+]

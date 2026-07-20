@@ -1,0 +1,362 @@
+[
+  {
+    "id": "v01",
+    "word": "comply",
+    "meaning": "준수하다",
+    "partOfSpeech": "v.",
+    "example": "All employees must comply with the new safety regulations.",
+    "exampleMeaning": "모든 직원은 새로운 안전 규정을 준수해야 한다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v02",
+    "word": "deadline",
+    "meaning": "마감 기한",
+    "partOfSpeech": "n.",
+    "example": "The marketing team needs to submit the report before the deadline.",
+    "exampleMeaning": "마케팅팀은 마감 기한 전에 보고서를 제출해야 한다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v03",
+    "word": "invoice",
+    "meaning": "청구서, 송장",
+    "partOfSpeech": "n.",
+    "example": "Please send the invoice to the accounting department by Friday.",
+    "exampleMeaning": "금요일까지 회계 부서로 청구서를 보내 주세요.",
+    "difficulty": 1
+  },
+  {
+    "id": "v04",
+    "word": "reimbursement",
+    "meaning": "환급, 상환",
+    "partOfSpeech": "n.",
+    "example": "Employees can request reimbursement for travel expenses within 30 days.",
+    "exampleMeaning": "직원들은 30일 이내에 출장 경비 환급을 요청할 수 있다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v05",
+    "word": "itinerary",
+    "meaning": "여행 일정표",
+    "partOfSpeech": "n.",
+    "example": "The travel agent emailed the detailed itinerary for the business trip.",
+    "exampleMeaning": "여행사 직원이 출장 상세 일정표를 이메일로 보냈다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v06",
+    "word": "vendor",
+    "meaning": "판매업체, 공급업체",
+    "partOfSpeech": "n.",
+    "example": "The company selected a new vendor for office supplies.",
+    "exampleMeaning": "그 회사는 사무용품을 위한 새로운 공급업체를 선정했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v07",
+    "word": "quarterly",
+    "meaning": "분기별의",
+    "partOfSpeech": "adj.",
+    "example": "The quarterly sales report will be presented at the meeting.",
+    "exampleMeaning": "분기별 매출 보고서가 회의에서 발표될 것이다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v08",
+    "word": "feasible",
+    "meaning": "실현 가능한",
+    "partOfSpeech": "adj.",
+    "example": "The engineers concluded that the new design was feasible.",
+    "exampleMeaning": "엔지니어들은 새로운 설계가 실현 가능하다고 결론지었다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v09",
+    "word": "negotiate",
+    "meaning": "협상하다",
+    "partOfSpeech": "v.",
+    "example": "The two companies agreed to negotiate a lower price for the contract.",
+    "exampleMeaning": "두 회사는 계약 가격을 낮추기 위해 협상하기로 합의했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v10",
+    "word": "supervisor",
+    "meaning": "감독관, 상사",
+    "partOfSpeech": "n.",
+    "example": "New employees should report any issues to their supervisor.",
+    "exampleMeaning": "신입 직원들은 문제가 생기면 상사에게 보고해야 한다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v11",
+    "word": "inventory",
+    "meaning": "재고",
+    "partOfSpeech": "n.",
+    "example": "The warehouse staff will check the inventory at the end of the month.",
+    "exampleMeaning": "창고 직원들은 월말에 재고를 확인할 것이다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v12",
+    "word": "warranty",
+    "meaning": "보증(서)",
+    "partOfSpeech": "n.",
+    "example": "The laptop comes with a two-year warranty.",
+    "exampleMeaning": "그 노트북에는 2년 보증이 제공된다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v13",
+    "word": "merger",
+    "meaning": "합병",
+    "partOfSpeech": "n.",
+    "example": "The merger between the two firms was announced this morning.",
+    "exampleMeaning": "두 회사 간의 합병이 오늘 아침 발표되었다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v14",
+    "word": "subsidiary",
+    "meaning": "자회사",
+    "partOfSpeech": "n.",
+    "example": "The corporation opened a subsidiary in Vietnam last year.",
+    "exampleMeaning": "그 회사는 작년에 베트남에 자회사를 설립했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v15",
+    "word": "shareholder",
+    "meaning": "주주",
+    "partOfSpeech": "n.",
+    "example": "Shareholders voted to approve the new business strategy.",
+    "exampleMeaning": "주주들은 새로운 사업 전략을 승인하는 데 투표했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v16",
+    "word": "procurement",
+    "meaning": "조달, 구매",
+    "partOfSpeech": "n.",
+    "example": "The procurement department is responsible for purchasing raw materials.",
+    "exampleMeaning": "구매 부서는 원자재 구입을 담당한다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v17",
+    "word": "logistics",
+    "meaning": "물류",
+    "partOfSpeech": "n.",
+    "example": "The logistics team arranged the delivery schedule for all branches.",
+    "exampleMeaning": "물류팀이 모든 지점의 배송 일정을 조율했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v18",
+    "word": "compliance",
+    "meaning": "준수",
+    "partOfSpeech": "n.",
+    "example": "The audit confirmed the factory's compliance with safety standards.",
+    "exampleMeaning": "감사 결과 공장이 안전 기준을 준수하고 있음이 확인되었다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v19",
+    "word": "proficiency",
+    "meaning": "숙달, 능숙함",
+    "partOfSpeech": "n.",
+    "example": "Applicants must demonstrate proficiency in spoken English.",
+    "exampleMeaning": "지원자는 영어 회화 능력을 증명해야 한다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v20",
+    "word": "endorse",
+    "meaning": "지지하다, 보증하다",
+    "partOfSpeech": "v.",
+    "example": "The CEO publicly endorsed the new marketing campaign.",
+    "exampleMeaning": "CEO는 새로운 마케팅 캠페인을 공개적으로 지지했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v21",
+    "word": "allocate",
+    "meaning": "할당하다",
+    "partOfSpeech": "v.",
+    "example": "The manager will allocate additional funds to the research team.",
+    "exampleMeaning": "관리자는 연구팀에 추가 자금을 할당할 것이다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v22",
+    "word": "accommodate",
+    "meaning": "수용하다",
+    "partOfSpeech": "v.",
+    "example": "The hotel can accommodate up to three hundred guests.",
+    "exampleMeaning": "그 호텔은 최대 300명의 손님을 수용할 수 있다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v23",
+    "word": "renovate",
+    "meaning": "개조하다",
+    "partOfSpeech": "v.",
+    "example": "The company plans to renovate the main office next spring.",
+    "exampleMeaning": "그 회사는 내년 봄에 본사를 개조할 계획이다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v24",
+    "word": "terminate",
+    "meaning": "종료하다, 해지하다",
+    "partOfSpeech": "v.",
+    "example": "The contract may be terminated with thirty days' notice.",
+    "exampleMeaning": "그 계약은 30일 전 통지로 해지될 수 있다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v25",
+    "word": "draft",
+    "meaning": "(문서를) 초안 작성하다",
+    "partOfSpeech": "v.",
+    "example": "The legal team was asked to draft the new agreement.",
+    "exampleMeaning": "법무팀은 새로운 계약서 초안을 작성해 달라는 요청을 받았다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v26",
+    "word": "delegate",
+    "meaning": "위임하다",
+    "partOfSpeech": "v.",
+    "example": "Good managers know how to delegate tasks effectively.",
+    "exampleMeaning": "훌륭한 관리자는 업무를 효과적으로 위임하는 법을 안다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v27",
+    "word": "reschedule",
+    "meaning": "일정을 변경하다",
+    "partOfSpeech": "v.",
+    "example": "The meeting was rescheduled due to a client emergency.",
+    "exampleMeaning": "고객 측 긴급 상황으로 회의 일정이 변경되었다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v28",
+    "word": "distribute",
+    "meaning": "배포하다, 유통하다",
+    "partOfSpeech": "v.",
+    "example": "The handouts will be distributed before the presentation begins.",
+    "exampleMeaning": "발표가 시작되기 전에 유인물이 배포될 것이다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v29",
+    "word": "exceed",
+    "meaning": "초과하다",
+    "partOfSpeech": "v.",
+    "example": "Sales figures this quarter exceeded expectations.",
+    "exampleMeaning": "이번 분기 매출 수치는 기대치를 초과했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v30",
+    "word": "facilitate",
+    "meaning": "촉진하다, 용이하게 하다",
+    "partOfSpeech": "v.",
+    "example": "The new software is designed to facilitate communication between teams.",
+    "exampleMeaning": "새로운 소프트웨어는 팀 간 소통을 원활하게 하도록 설계되었다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v31",
+    "word": "implement",
+    "meaning": "시행하다",
+    "partOfSpeech": "v.",
+    "example": "The company decided to implement a flexible work schedule.",
+    "exampleMeaning": "그 회사는 유연근무제를 시행하기로 결정했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v32",
+    "word": "prevalent",
+    "meaning": "널리 퍼진, 일반적인",
+    "partOfSpeech": "adj.",
+    "example": "Remote work has become increasingly prevalent in the industry.",
+    "exampleMeaning": "재택근무는 그 업계에서 점점 더 널리 퍼지고 있다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v33",
+    "word": "redundant",
+    "meaning": "불필요한, 잉여의",
+    "partOfSpeech": "adj.",
+    "example": "Several positions were made redundant after the merger.",
+    "exampleMeaning": "합병 이후 몇몇 직위가 불필요해졌다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v34",
+    "word": "mandatory",
+    "meaning": "의무적인, 필수의",
+    "partOfSpeech": "adj.",
+    "example": "Attendance at the safety training is mandatory for all staff.",
+    "exampleMeaning": "안전 교육 참석은 모든 직원에게 의무적이다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v35",
+    "word": "lucrative",
+    "meaning": "수익성이 좋은",
+    "partOfSpeech": "adj.",
+    "example": "The startup signed a lucrative deal with an overseas partner.",
+    "exampleMeaning": "그 스타트업은 해외 파트너와 수익성이 좋은 계약을 체결했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v36",
+    "word": "versatile",
+    "meaning": "다재다능한",
+    "partOfSpeech": "adj.",
+    "example": "The new employee proved to be a versatile member of the team.",
+    "exampleMeaning": "그 신입 직원은 팀의 다재다능한 일원임이 증명되었다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v37",
+    "word": "tentative",
+    "meaning": "잠정적인",
+    "partOfSpeech": "adj.",
+    "example": "We have a tentative agreement, but the details still need review.",
+    "exampleMeaning": "우리는 잠정적으로 합의했지만 세부 사항은 아직 검토가 필요하다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v38",
+    "word": "consecutive",
+    "meaning": "연속적인",
+    "partOfSpeech": "adj.",
+    "example": "The store had record sales for three consecutive months.",
+    "exampleMeaning": "그 매장은 3개월 연속으로 최고 매출을 기록했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v39",
+    "word": "entail",
+    "meaning": "수반하다",
+    "partOfSpeech": "v.",
+    "example": "The new position entails frequent travel abroad.",
+    "exampleMeaning": "그 새 직책은 잦은 해외 출장을 수반한다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v40",
+    "word": "correspondence",
+    "meaning": "서신, 연락",
+    "partOfSpeech": "n.",
+    "example": "All correspondence with clients should be kept on file.",
+    "exampleMeaning": "고객과의 모든 서신은 파일로 보관되어야 한다.",
+    "difficulty": 2
+  }
+]

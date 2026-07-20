@@ -1,0 +1,141 @@
+[
+  {
+    "id": "s01",
+    "text": "The team meeting will start at nine tomorrow.",
+    "chunks": [
+      { "text": "The team meeting", "meaning": "팀 회의는" },
+      { "text": "will start", "meaning": "시작할 것이다" },
+      { "text": "at nine tomorrow.", "meaning": "내일 9시에" }
+    ],
+    "difficulty": 1,
+    "wordCount": 8
+  },
+  {
+    "id": "s02",
+    "text": "Please submit your expense report to the office by Friday.",
+    "chunks": [
+      { "text": "Please submit your expense report", "meaning": "경비 보고서를 제출해 주세요" },
+      { "text": "to the office", "meaning": "사무실로" },
+      { "text": "by Friday.", "meaning": "금요일까지" }
+    ],
+    "difficulty": 1,
+    "wordCount": 10
+  },
+  {
+    "id": "s03",
+    "text": "The new vendor will deliver the office supplies early next week.",
+    "chunks": [
+      { "text": "The new vendor", "meaning": "새로운 공급업체가" },
+      { "text": "will deliver the office supplies", "meaning": "사무용품을 배달할 것이다" },
+      { "text": "early next week.", "meaning": "다음 주 초에" }
+    ],
+    "difficulty": 1,
+    "wordCount": 11
+  },
+  {
+    "id": "s04",
+    "text": "The manager who joined last month has already improved the review process.",
+    "chunks": [
+      { "text": "The manager", "meaning": "그 관리자는" },
+      { "text": "who joined last month", "meaning": "지난달에 입사한" },
+      { "text": "has already improved", "meaning": "이미 개선했다" },
+      { "text": "the review process.", "meaning": "그 검토 절차를" }
+    ],
+    "difficulty": 2,
+    "wordCount": 12
+  },
+  {
+    "id": "s05",
+    "text": "Employees who complete the training program will receive an official certificate next month.",
+    "chunks": [
+      { "text": "Employees who complete the training program", "meaning": "교육 프로그램을 이수하는 직원들은" },
+      { "text": "will receive", "meaning": "받게 될 것이다" },
+      { "text": "an official certificate", "meaning": "공식 수료증을" },
+      { "text": "next month.", "meaning": "다음 달에" }
+    ],
+    "difficulty": 2,
+    "wordCount": 13
+  },
+  {
+    "id": "s06",
+    "text": "The IT department will upgrade all computers in the entire office next Monday morning.",
+    "chunks": [
+      { "text": "The IT department", "meaning": "IT 부서는" },
+      { "text": "will upgrade all computers", "meaning": "모든 컴퓨터를 업그레이드할 것이다" },
+      { "text": "in the entire office", "meaning": "사무실 전체에서" },
+      { "text": "next Monday morning.", "meaning": "다음 주 월요일 아침에" }
+    ],
+    "difficulty": 2,
+    "wordCount": 14
+  },
+  {
+    "id": "s07",
+    "text": "Because the flight was delayed by three hours, the sales team missed the morning meeting.",
+    "chunks": [
+      { "text": "Because the flight was delayed by three hours,", "meaning": "비행기가 세 시간 지연되었기 때문에" },
+      { "text": "the sales team", "meaning": "영업팀은" },
+      { "text": "missed the morning meeting.", "meaning": "오전 회의를 놓쳤다" }
+    ],
+    "difficulty": 2,
+    "wordCount": 15
+  },
+  {
+    "id": "s08",
+    "text": "The client requested that the marketing proposal be revised before the final presentation next Thursday afternoon.",
+    "chunks": [
+      { "text": "The client requested", "meaning": "고객이 요청했다" },
+      { "text": "that the marketing proposal be revised", "meaning": "마케팅 제안서가 수정되어야 한다고" },
+      { "text": "before the final presentation", "meaning": "최종 발표 전에" },
+      { "text": "next Thursday afternoon.", "meaning": "다음 주 목요일 오후" }
+    ],
+    "difficulty": 3,
+    "wordCount": 16
+  },
+  {
+    "id": "s09",
+    "text": "Although the budget was reduced significantly, the project manager still managed to finish the renovation on schedule.",
+    "chunks": [
+      { "text": "Although the budget was reduced significantly,", "meaning": "예산이 크게 삭감되었지만" },
+      { "text": "the project manager", "meaning": "그 프로젝트 관리자는" },
+      { "text": "still managed to finish", "meaning": "그럼에도 마무리했다" },
+      { "text": "the renovation on schedule.", "meaning": "일정대로 개조 공사를" }
+    ],
+    "difficulty": 3,
+    "wordCount": 17
+  },
+  {
+    "id": "s10",
+    "text": "The company that recently merged with its biggest competitor announced a new pricing strategy for all its products.",
+    "chunks": [
+      { "text": "The company", "meaning": "그 회사는" },
+      { "text": "that recently merged with its biggest competitor", "meaning": "최근 최대 경쟁사와 합병한" },
+      { "text": "announced a new pricing strategy", "meaning": "새로운 가격 전략을 발표했다" },
+      { "text": "for all its products.", "meaning": "모든 제품에 대해" }
+    ],
+    "difficulty": 3,
+    "wordCount": 18
+  },
+  {
+    "id": "s11",
+    "text": "Since the supplier failed to deliver the parts on time, the factory had to postpone the production schedule again.",
+    "chunks": [
+      { "text": "Since the supplier failed to deliver the parts on time,", "meaning": "공급업체가 제때 부품을 배송하지 못했기 때문에" },
+      { "text": "the factory had to postpone", "meaning": "공장은 연기해야 했다" },
+      { "text": "the production schedule again.", "meaning": "생산 일정을 다시" }
+    ],
+    "difficulty": 3,
+    "wordCount": 19
+  },
+  {
+    "id": "s12",
+    "text": "The external consultant who was hired to improve efficiency recommended immediately that the company reduce unnecessary meetings across every department.",
+    "chunks": [
+      { "text": "The external consultant", "meaning": "그 외부 컨설턴트는" },
+      { "text": "who was hired to improve efficiency", "meaning": "효율성을 개선하기 위해 고용된" },
+      { "text": "recommended immediately that the company reduce unnecessary meetings", "meaning": "회사가 불필요한 회의를 줄이라고 즉시 권고했다" },
+      { "text": "across every department.", "meaning": "모든 부서에 걸쳐" }
+    ],
+    "difficulty": 3,
+    "wordCount": 20
+  }
+]
