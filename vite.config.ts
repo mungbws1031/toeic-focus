@@ -3,7 +3,9 @@ import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 
 // https://vite.dev/config/
-export default defineConfig({
+// 배포(빌드)는 GitHub Pages 하위 경로(/toeic-focus/)에, 로컬 개발은 루트(/)에서.
+export default defineConfig(({ command }) => ({
+  base: command === "build" ? "/toeic-focus/" : "/",
   server: {
     port: 5174,
   },
@@ -40,4 +42,4 @@ export default defineConfig({
       },
     }),
   ],
-});
+}));
