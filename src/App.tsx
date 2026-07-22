@@ -29,9 +29,9 @@ import {
 } from "./ui/screens/OneSentenceDailyScreen";
 
 const USER_STATE_ID = "singleton";
-const NEW_CARD_CANDIDATE_LIMIT = 10;
+const NEW_CARD_CANDIDATE_LIMIT = 30;
 /** 3분짜리 마이크로 세션 1회에 담을 카드 수 목표. "일일 복습 상한"(dailyCap)과는 별개다(설계 스펙 §4.3). */
-const SESSION_CARD_TARGET = 8;
+const SESSION_CARD_TARGET = 12;
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
 const CAPSULE_LABELS: Record<CapsuleRarity, string> = {
   common: "일반 캡슐",
@@ -442,21 +442,43 @@ function App() {
               <div style={{ fontSize: 20, fontWeight: 700 }}>
                 {withObjectParticle(CAPSULE_LABELS[capsuleRarity])} 획득했어요!
               </div>
-              <button
-                type="button"
-                onClick={() => setCapsuleRarity(null)}
-                style={{
-                  fontSize: 14,
-                  padding: "8px 20px",
-                  borderRadius: 999,
-                  border: "none",
-                  background: "#4f46e5",
-                  color: "#fff",
-                  cursor: "pointer",
-                }}
-              >
-                닫기
-              </button>
+              <div style={{ display: "flex", gap: 12 }}>
+                <button
+                  type="button"
+                  onClick={() => setCapsuleRarity(null)}
+                  style={{
+                    fontSize: 14,
+                    padding: "8px 20px",
+                    borderRadius: 999,
+                    border: "none",
+                    background: "#4f46e5",
+                    color: "#fff",
+                    cursor: "pointer",
+                  }}
+                >
+                  닫기
+                </button>
+                {todayProgress < 1 && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setCapsuleRarity(null);
+                      void handleStart();
+                    }}
+                    style={{
+                      fontSize: 14,
+                      padding: "8px 20px",
+                      borderRadius: 999,
+                      border: "1px solid #fff",
+                      background: "transparent",
+                      color: "#fff",
+                      cursor: "pointer",
+                    }}
+                  >
+                    조금 더 할까요?
+                  </button>
+                )}
+              </div>
             </div>
           )}
         </div>

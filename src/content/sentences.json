@@ -137,5 +137,212 @@
     ],
     "difficulty": 3,
     "wordCount": 20
+  },
+  {
+    "id": "s013",
+    "text": "Please review the attached contract before our meeting tomorrow.",
+    "chunks": [
+      { "text": "Please review", "meaning": "검토해 주세요" },
+      { "text": "the attached contract", "meaning": "첨부된 계약서를" },
+      { "text": "before our meeting tomorrow.", "meaning": "내일 회의 전에" }
+    ],
+    "difficulty": 1,
+    "wordCount": 9
+  },
+  {
+    "id": "s014",
+    "text": "The shipment will arrive at the warehouse early next Tuesday.",
+    "chunks": [
+      { "text": "The shipment", "meaning": "그 배송품은" },
+      { "text": "will arrive", "meaning": "도착할 것이다" },
+      { "text": "at the warehouse", "meaning": "창고에" },
+      { "text": "early next Tuesday.", "meaning": "다음 주 화요일 일찍" }
+    ],
+    "difficulty": 1,
+    "wordCount": 10
+  },
+  {
+    "id": "s015",
+    "text": "Our company will host a training workshop for new employees next week.",
+    "chunks": [
+      { "text": "Our company", "meaning": "우리 회사는" },
+      { "text": "will host a training workshop", "meaning": "교육 워크숍을 개최할 것이다" },
+      { "text": "for new employees", "meaning": "신입 직원들을 위해" },
+      { "text": "next week.", "meaning": "다음 주에" }
+    ],
+    "difficulty": 1,
+    "wordCount": 12
+  },
+  {
+    "id": "s016",
+    "text": "The invoice was sent to the finance team yesterday.",
+    "chunks": [
+      { "text": "The invoice", "meaning": "그 청구서는" },
+      { "text": "was sent", "meaning": "발송되었다" },
+      { "text": "to the finance team", "meaning": "재무팀에" },
+      { "text": "yesterday.", "meaning": "어제" }
+    ],
+    "difficulty": 1,
+    "wordCount": 9
+  },
+  {
+    "id": "s017",
+    "text": "All employees must complete the online safety training by Monday.",
+    "chunks": [
+      { "text": "All employees", "meaning": "모든 직원은" },
+      { "text": "must complete", "meaning": "완료해야 한다" },
+      { "text": "the online safety training", "meaning": "온라인 안전 교육을" },
+      { "text": "by Monday.", "meaning": "월요일까지" }
+    ],
+    "difficulty": 1,
+    "wordCount": 10
+  },
+  {
+    "id": "s018",
+    "text": "The receptionist will kindly forward your call to the correct department.",
+    "chunks": [
+      { "text": "The receptionist", "meaning": "그 접수 담당자는" },
+      { "text": "will kindly forward your call", "meaning": "친절하게 전화를 연결해 줄 것이다" },
+      { "text": "to the correct department.", "meaning": "올바른 부서로" }
+    ],
+    "difficulty": 1,
+    "wordCount": 11
+  },
+  {
+    "id": "s019",
+    "text": "The finance team will review the quarterly budget report before the board meeting.",
+    "chunks": [
+      { "text": "The finance team", "meaning": "재무팀은" },
+      { "text": "will review the quarterly budget report", "meaning": "분기별 예산 보고서를 검토할 것이다" },
+      { "text": "before the board meeting.", "meaning": "이사회 회의 전에" }
+    ],
+    "difficulty": 2,
+    "wordCount": 13
+  },
+  {
+    "id": "s020",
+    "text": "Because the printer was out of order, the report had to be emailed instead.",
+    "chunks": [
+      { "text": "Because the printer was out of order,", "meaning": "프린터가 고장 났기 때문에" },
+      { "text": "the report", "meaning": "그 보고서는" },
+      { "text": "had to be emailed instead.", "meaning": "대신 이메일로 보내져야 했다" }
+    ],
+    "difficulty": 2,
+    "wordCount": 14
+  },
+  {
+    "id": "s021",
+    "text": "The manager asked the assistant to prepare the conference room before the important client visit.",
+    "chunks": [
+      { "text": "The manager asked the assistant", "meaning": "그 관리자는 비서에게 요청했다" },
+      { "text": "to prepare the conference room", "meaning": "회의실을 준비하라고" },
+      { "text": "before the important client visit.", "meaning": "중요한 고객 방문 전에" }
+    ],
+    "difficulty": 2,
+    "wordCount": 15
+  },
+  {
+    "id": "s022",
+    "text": "The logistics team confirmed that the shipment would finally arrive at the port by next Wednesday.",
+    "chunks": [
+      { "text": "The logistics team confirmed", "meaning": "물류팀은 확인했다" },
+      { "text": "that the shipment would finally arrive", "meaning": "배송품이 마침내 도착할 것이라고" },
+      { "text": "at the port", "meaning": "항구에" },
+      { "text": "by next Wednesday.", "meaning": "다음 주 수요일까지" }
+    ],
+    "difficulty": 2,
+    "wordCount": 16
+  },
+  {
+    "id": "s023",
+    "text": "The supervisor gave very positive feedback during the annual performance review last week.",
+    "chunks": [
+      { "text": "The supervisor gave very positive feedback", "meaning": "그 상사는 매우 긍정적인 피드백을 주었다" },
+      { "text": "during the annual performance review", "meaning": "연례 인사 평가에서" },
+      { "text": "last week.", "meaning": "지난주에" }
+    ],
+    "difficulty": 2,
+    "wordCount": 13
+  },
+  {
+    "id": "s024",
+    "text": "The email clearly explained that the contract renewal would still require approval from the legal department.",
+    "chunks": [
+      { "text": "The email clearly explained", "meaning": "그 이메일은 명확히 설명했다" },
+      { "text": "that the contract renewal", "meaning": "계약 갱신이" },
+      { "text": "would still require approval", "meaning": "여전히 승인이 필요하다고" },
+      { "text": "from the legal department.", "meaning": "법무 부서로부터" }
+    ],
+    "difficulty": 2,
+    "wordCount": 16
+  },
+  {
+    "id": "s025",
+    "text": "Since the vendor missed the delivery deadline, the warehouse manager decided to find a new supplier immediately.",
+    "chunks": [
+      { "text": "Since the vendor missed the delivery deadline,", "meaning": "공급업체가 배송 기한을 놓쳤기 때문에" },
+      { "text": "the warehouse manager", "meaning": "그 창고 관리자는" },
+      { "text": "decided to find a new supplier", "meaning": "새로운 공급업체를 찾기로 결정했다" },
+      { "text": "immediately.", "meaning": "즉시" }
+    ],
+    "difficulty": 3,
+    "wordCount": 17
+  },
+  {
+    "id": "s026",
+    "text": "The contract that both companies signed last year included a detailed clause about confidentiality and dispute resolution procedures.",
+    "chunks": [
+      { "text": "The contract that both companies signed last year", "meaning": "양사가 작년에 서명한 그 계약서는" },
+      { "text": "included a detailed clause", "meaning": "상세한 조항을 포함했다" },
+      { "text": "about confidentiality and dispute resolution procedures.", "meaning": "기밀 유지와 분쟁 해결 절차에 관한" }
+    ],
+    "difficulty": 3,
+    "wordCount": 18
+  },
+  {
+    "id": "s027",
+    "text": "Although the marketing budget was cut significantly this quarter, the team still managed to launch the new advertising campaign successfully.",
+    "chunks": [
+      { "text": "Although the marketing budget was cut significantly this quarter,", "meaning": "이번 분기에 마케팅 예산이 크게 삭감되었지만" },
+      { "text": "the team", "meaning": "그 팀은" },
+      { "text": "still managed to launch the new advertising campaign", "meaning": "여전히 새로운 광고 캠페인을 출시해냈다" },
+      { "text": "successfully.", "meaning": "성공적으로" }
+    ],
+    "difficulty": 3,
+    "wordCount": 20
+  },
+  {
+    "id": "s028",
+    "text": "The consultant who was hired last month suggested several ways to reduce shipping costs across all regions.",
+    "chunks": [
+      { "text": "The consultant who was hired last month", "meaning": "지난달에 고용된 그 컨설턴트는" },
+      { "text": "suggested several ways", "meaning": "몇 가지 방법을 제안했다" },
+      { "text": "to reduce shipping costs", "meaning": "배송 비용을 줄이기 위한" },
+      { "text": "across all regions.", "meaning": "모든 지역에서" }
+    ],
+    "difficulty": 3,
+    "wordCount": 17
+  },
+  {
+    "id": "s029",
+    "text": "Because the annual conference was rescheduled due to the storm, many attendees had to change their travel plans.",
+    "chunks": [
+      { "text": "Because the annual conference was rescheduled due to the storm,", "meaning": "폭풍으로 인해 연례 컨퍼런스 일정이 변경되었기 때문에" },
+      { "text": "many attendees", "meaning": "많은 참석자들이" },
+      { "text": "had to change their travel plans.", "meaning": "여행 계획을 변경해야 했다" }
+    ],
+    "difficulty": 3,
+    "wordCount": 18
+  },
+  {
+    "id": "s030",
+    "text": "The negotiation team, which had prepared for several weeks, finally reached an agreement that satisfied both parties.",
+    "chunks": [
+      { "text": "The negotiation team, which had prepared for several weeks,", "meaning": "몇 주간 준비했던 협상팀은" },
+      { "text": "finally reached an agreement", "meaning": "마침내 합의에 도달했다" },
+      { "text": "that satisfied both parties.", "meaning": "양측 모두를 만족시키는" }
+    ],
+    "difficulty": 3,
+    "wordCount": 17
   }
 ]

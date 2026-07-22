@@ -6,16 +6,16 @@ describe("content seed data", () => {
   const grammarPatterns = getGrammarPatterns();
   const sentences = getSentences();
 
-  it("어휘는 40개 이상이다", () => {
-    expect(vocab.length).toBeGreaterThanOrEqual(40);
+  it("어휘는 150개 이상이다", () => {
+    expect(vocab.length).toBeGreaterThanOrEqual(150);
   });
 
-  it("문법 패턴은 8개 이상이다", () => {
-    expect(grammarPatterns.length).toBeGreaterThanOrEqual(8);
+  it("문법 패턴은 16개 이상이다", () => {
+    expect(grammarPatterns.length).toBeGreaterThanOrEqual(16);
   });
 
-  it("문장은 12개 이상이다", () => {
-    expect(sentences.length).toBeGreaterThanOrEqual(12);
+  it("문장은 30개 이상이다", () => {
+    expect(sentences.length).toBeGreaterThanOrEqual(30);
   });
 
   it("모든 어휘 항목은 word/meaning/example이 비어있지 않다", () => {

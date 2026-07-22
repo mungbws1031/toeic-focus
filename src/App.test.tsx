@@ -301,6 +301,129 @@ describe("App", () => {
     expect(cards[0].type).toBe("sentence");
   });
 
+  it("오늘 진행률이 상한 미만이면 캡슐의 '조금 더 할까요?' 버튼을 눌러 홈을 거치지 않고 바로 다음 세션으로 이어간다", async () => {
+    const now = Date.now();
+    const pastDue = new Date(now - 1000);
+    const farFutureDue = new Date(now + 365 * 24 * 60 * 60 * 1000);
+    const dueVocabCount = 3;
+    // 문법 패턴은 전부 이미 존재하는 카드로 채워둬(전부 due가 미래) 새 카드 후보에서 빠지게
+    // 한다 — 문법 카드는 "정답 확인" 2단계 흐름이라 "알아요" 클릭 루프를 복잡하게 만든다.
+    // 어휘는 dueVocabCount장만 카드로 채워, 나머지 어휘가 새 카드 후보로 남아 "조금 더
+    // 할까요?"로 이어지는 두 번째 세션에도 카드가 잡히게 한다.
+    const vocabCards: Card[] = getVocab()
+      .slice(0, dueVocabCount)
+      .map((vocab) => ({
+        id: `vocab-${vocab.id}`,
+        type: "vocab" as const,
+        contentId: vocab.id,
+        due: pastDue,
+        stability: 1,
+        difficulty: 1,
+        elapsedDays: 0,
+        scheduledDays: 9999,
+        reps: 1,
+        lapses: 0,
+        state: "review" as const,
+      }));
+    const grammarCards: Card[] = getGrammarPatterns().map((pattern) => ({
+      id: `grammar-${pattern.id}`,
+      type: "grammar" as const,
+      contentId: pattern.id,
+      due: farFutureDue,
+      stability: 1,
+      difficulty: 1,
+      elapsedDays: 0,
+      scheduledDays: 9999,
+      reps: 1,
+      lapses: 0,
+      state: "review" as const,
+    }));
+    await db.cards.bulkAdd([...vocabCards, ...grammarCards]);
+
+    render(<App />);
+
+    fireEvent.click(await screen.findByRole("button", { name: "지금 3분" }));
+
+    // 오늘 첫 세션이라 capacity는 SESSION_CARD_TARGET(12)에 그대로 고정된다(due 3장 +
+    // 새 카드 후보로 9장 채워 정확히 12장). 마지막 카드를 채점하면 App.handleSessionComplete가
+    // 비동기로 세션을 마무리하므로, 세션 화면이 떠 있는 동안(11장까지)은 다음 카드로 바로
+    // 넘어가는 setIndex라 동기적으로 처리되지만 마지막 한 장만은 그렇지 않다. 정확히 12번만
+    // 클릭해야 한다 — 세션이 이미 끝난 뒤에도 남아있는 버튼을 잘못 다시 눌러 완료 콜백이
+    // 중복 호출되는 것을 막기 위함이다.
+    const sessionCardCount = 12;
+    for (let i = 0; i < sessionCardCount; i++) {
+      fireEvent.click(await screen.findByRole("button", { name: "알아요" }));
+    }
+
+    // 오늘 진행률이 dailyCap('normal')=60에 한참 못 미쳐 진행률이 1 미만이므로
+    // "조금 더 할까요?" 버튼이 캡슐 모달의 "닫기" 옆에 떠야 한다.
+    const continueButton = await screen.findByRole("button", {
+      name: "조금 더 할까요?",
+    });
+
+    fireEvent.click(continueButton);
+
+    // 홈 화면("지금 3분")을 거치지 않고 곧바로 다음 마이크로 세션의 카드 채점 화면으로 전환된다.
+    expect(
+      await screen.findByRole("button", { name: "알아요" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.queryByRole("button", { name: "지금 3분" }),
+    ).not.toBeInTheDocument();
+  });
+
+  it("오늘 리뷰량이 이미 dailyCap('normal')에 도달하면 캡슐에 '조금 더 할까요?' 버튼이 뜨지 않는다", async () => {
+    const now = Date.now();
+    const pastDue = new Date(now - 1000);
+    const farFutureDue = new Date(now + 365 * 24 * 60 * 60 * 1000);
+    // 오늘 이미 57장을 리뷰한 것으로 미리 세팅해 이번 세션에서 남은 여유분(capacity)이
+    // 3장뿐이 되도록 만든다(60 - 57 = 3). 이번 세션에서 3장을 마저 채점하면 오늘 리뷰량이
+    // 정확히 dailyCap(60)에 도달해 진행률이 1이 된다.
+    await db.sessionLogs.add({
+      startedAt: new Date(now - 60 * 60 * 1000),
+      completedAt: new Date(now - 60 * 60 * 1000),
+      cardsReviewed: 57,
+      xpEarned: 0,
+      sessionType: "micro",
+    });
+
+    const dueVocabCount = 3;
+    const vocabCards: Card[] = getVocab().map((vocab, index) => ({
+      id: `vocab-${vocab.id}`,
+      type: "vocab" as const,
+      contentId: vocab.id,
+      due: index < dueVocabCount ? pastDue : farFutureDue,
+      stability: 1,
+      difficulty: 1,
+      elapsedDays: 0,
+      scheduledDays: 9999,
+      reps: 1,
+      lapses: 0,
+      state: "review" as const,
+    }));
+    await db.cards.bulkAdd(vocabCards);
+
+    render(<App />);
+
+    fireEvent.click(await screen.findByRole("button", { name: "지금 3분" }));
+
+    for (let i = 0; i < dueVocabCount; i++) {
+      fireEvent.click(await screen.findByRole("button", { name: "알아요" }));
+    }
+
+    // 캡슐은 여전히 뜨지만(cardsReviewed=3 > 0), 오늘 진행률이 1에 도달했으므로
+    // "조금 더 할까요?" 버튼 없이 "닫기"만 있어야 한다.
+    expect(
+      await screen.findByRole("dialog", { name: "보상 캡슐" }),
+    ).toBeInTheDocument();
+    expect(
+      await screen.findByRole("button", { name: "닫기" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.queryByRole("button", { name: "조금 더 할까요?" }),
+    ).not.toBeInTheDocument();
+  });
+
   it("실력 진단(12문항)을 마치면 결과가 db.userState에 저장되고, 진단 유도 버튼이 홈에서 사라진다", async () => {
     render(<App />);
 

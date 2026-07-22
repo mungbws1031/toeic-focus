@@ -198,5 +198,205 @@
         "correctIndex": 1
       }
     ]
+  },
+  {
+    "id": "g09",
+    "title": "등위상관접속사",
+    "explanation": "both A and B, either A or B, neither A nor B, not only A but also B처럼 짝을 이루는 접속사는 A와 B 자리에 문법적으로 대등한 형태를 써야 한다.",
+    "examples": [
+      {
+        "sentence": "The new policy applies to both full-time _____ part-time employees.",
+        "blank": "and",
+        "options": ["or", "and", "but", "nor"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "Employees can submit the form either by email _____ in person at the front desk.",
+        "blank": "or",
+        "options": ["and", "or", "but also", "nor"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "The proposal was not only cost-effective _____ also environmentally friendly.",
+        "blank": "but",
+        "options": ["and", "or", "but", "so"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "g10",
+    "title": "명사절 접속사",
+    "explanation": "that, whether, what 등은 문장 전체를 명사처럼 만들어 주어·목적어 자리에 쓰이는 명사절을 이끈다.",
+    "examples": [
+      {
+        "sentence": "The manager confirmed _____ the shipment would arrive by Friday.",
+        "blank": "that",
+        "options": ["that", "what", "who", "which"],
+        "correctIndex": 0
+      },
+      {
+        "sentence": "It is unclear _____ the merger will be approved by the board.",
+        "blank": "whether",
+        "options": ["that", "whether", "because", "although"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "The survey revealed _____ customers value most about the service.",
+        "blank": "what",
+        "options": ["that", "if", "what", "whether"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "g11",
+    "title": "부정대명사/부정형용사",
+    "explanation": "each, every는 단수 취급, another는 '또 다른 하나', other/others는 나머지를 가리키는 등 수와 지시 대상에 맞게 골라 써야 한다.",
+    "examples": [
+      {
+        "sentence": "_____ employee must complete the safety training before starting work.",
+        "blank": "Each",
+        "options": ["Each", "All", "Both", "Several"],
+        "correctIndex": 0
+      },
+      {
+        "sentence": "The first proposal was rejected, so the committee reviewed _____ one.",
+        "blank": "another",
+        "options": ["other", "others", "another", "the others"],
+        "correctIndex": 2
+      },
+      {
+        "sentence": "Some workers prefer remote work, while _____ favor the office.",
+        "blank": "others",
+        "options": ["other", "another", "others", "the other"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "g12",
+    "title": "형용사 vs 부사 자리",
+    "explanation": "형용사는 명사를 앞에서 수식하고, 부사는 동사·형용사·문장 전체를 수식한다. 명사 앞 빈칸에는 형용사, 동사 뒤 빈칸에는 부사가 온다.",
+    "examples": [
+      {
+        "sentence": "The team submitted a _____ report ahead of the deadline.",
+        "blank": "detailed",
+        "options": ["detail", "detailed", "detailing", "details"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "The negotiations proceeded _____ despite the tight schedule.",
+        "blank": "smoothly",
+        "options": ["smooth", "smoothly", "smoothness", "smoother"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "Investors reacted _____ to the announcement of record profits.",
+        "blank": "positively",
+        "options": ["positive", "positively", "positivity", "more positive"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "g13",
+    "title": "최상급 표현",
+    "explanation": "셋 이상을 비교해 하나를 특정할 때는 'the + 최상급' 형태를 쓰며, 뒤에 흔히 'of/in/that ... has ever ...' 등이 이어진다.",
+    "examples": [
+      {
+        "sentence": "This is _____ effective marketing strategy the company has ever used.",
+        "blank": "the most",
+        "options": ["more", "most", "the most", "much more"],
+        "correctIndex": 2
+      },
+      {
+        "sentence": "Of all the candidates, she has _____ experience in project management.",
+        "blank": "the most",
+        "options": ["most", "more", "the most", "much"],
+        "correctIndex": 2
+      },
+      {
+        "sentence": "The new headquarters is _____ building in the entire industrial park.",
+        "blank": "the tallest",
+        "options": ["taller", "the taller", "tallest", "the tallest"],
+        "correctIndex": 3
+      }
+    ]
+  },
+  {
+    "id": "g14",
+    "title": "to부정사의 다양한 용법",
+    "explanation": "to부정사는 목적(~하기 위해), 결과(~해서 결국), 형용사 뒤 보충 설명 등 여러 의미로 쓰인다.",
+    "examples": [
+      {
+        "sentence": "The company hired additional staff _____ the growing demand.",
+        "blank": "to meet",
+        "options": ["meeting", "to meet", "meet", "met"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "She worked overtime only _____ that the project was already finished.",
+        "blank": "to find",
+        "options": ["finding", "find", "to find", "found"],
+        "correctIndex": 2
+      },
+      {
+        "sentence": "The firm was quick _____ the new safety regulations.",
+        "blank": "to adopt",
+        "options": ["adopting", "adopt", "adopted", "to adopt"],
+        "correctIndex": 3
+      }
+    ]
+  },
+  {
+    "id": "g15",
+    "title": "현재분사 vs 과거분사 (수식 대상)",
+    "explanation": "수식받는 명사가 동작을 직접 하면 현재분사(-ing), 동작을 당하면 과거분사(p.p.)를 쓴다.",
+    "examples": [
+      {
+        "sentence": "The employees _____ in the training session gave positive feedback.",
+        "blank": "participating",
+        "options": ["participate", "participating", "participated", "to participate"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "The proposal _____ by the committee will be implemented next quarter.",
+        "blank": "approved",
+        "options": ["approving", "approve", "approved", "to approve"],
+        "correctIndex": 2
+      },
+      {
+        "sentence": "The results _____ in the study surprised the research team.",
+        "blank": "obtained",
+        "options": ["obtaining", "obtain", "obtained", "to obtain"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "g16",
+    "title": "관계부사",
+    "explanation": "where(장소), when(시간), why(이유), how(방법)는 완전한 절을 이끌며 선행사의 종류에 맞게 골라 쓴다.",
+    "examples": [
+      {
+        "sentence": "The factory _____ the products are manufactured is located in Busan.",
+        "blank": "where",
+        "options": ["where", "when", "why", "which"],
+        "correctIndex": 0
+      },
+      {
+        "sentence": "The board scheduled the meeting for a time _____ all directors could attend.",
+        "blank": "when",
+        "options": ["where", "when", "why", "that"],
+        "correctIndex": 1
+      },
+      {
+        "sentence": "The manager explained the reason _____ the deadline was extended.",
+        "blank": "why",
+        "options": ["where", "when", "why", "how"],
+        "correctIndex": 2
+      }
+    ]
   }
 ]

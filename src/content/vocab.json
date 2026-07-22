@@ -358,5 +358,995 @@
     "example": "All correspondence with clients should be kept on file.",
     "exampleMeaning": "고객과의 모든 서신은 파일로 보관되어야 한다.",
     "difficulty": 2
+  },
+  {
+    "id": "v041",
+    "word": "applicant",
+    "meaning": "지원자",
+    "partOfSpeech": "n.",
+    "example": "Over two hundred applicants applied for the marketing position.",
+    "exampleMeaning": "그 마케팅 직책에 200명이 넘는 지원자가 지원했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v042",
+    "word": "candidate",
+    "meaning": "후보자, 지원자",
+    "partOfSpeech": "n.",
+    "example": "The hiring manager interviewed three candidates for the sales role.",
+    "exampleMeaning": "채용 담당자는 영업직 후보자 세 명을 면접했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v043",
+    "word": "résumé",
+    "meaning": "이력서",
+    "partOfSpeech": "n.",
+    "example": "Please attach your résumé and cover letter to the application.",
+    "exampleMeaning": "지원서에 이력서와 자기소개서를 첨부해 주세요.",
+    "difficulty": 1
+  },
+  {
+    "id": "v044",
+    "word": "qualification",
+    "meaning": "자격, 자격요건",
+    "partOfSpeech": "n.",
+    "example": "Candidates must meet the minimum qualifications listed in the job posting.",
+    "exampleMeaning": "지원자는 채용 공고에 명시된 최소 자격요건을 충족해야 한다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v045",
+    "word": "recruit",
+    "meaning": "채용하다, 모집하다",
+    "partOfSpeech": "v.",
+    "example": "The company plans to recruit ten new engineers this year.",
+    "exampleMeaning": "그 회사는 올해 신입 엔지니어 10명을 채용할 계획이다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v046",
+    "word": "onboarding",
+    "meaning": "신입 직원 적응 교육",
+    "partOfSpeech": "n.",
+    "example": "New hires complete a week-long onboarding program before starting work.",
+    "exampleMeaning": "신입 직원들은 근무를 시작하기 전 일주일간의 적응 교육 프로그램을 이수한다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v047",
+    "word": "probationary",
+    "meaning": "수습의, 견습의",
+    "partOfSpeech": "adj.",
+    "example": "All new staff members serve a three-month probationary period.",
+    "exampleMeaning": "모든 신입 직원은 3개월간의 수습 기간을 거친다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v048",
+    "word": "promotion",
+    "meaning": "승진",
+    "partOfSpeech": "n.",
+    "example": "She received a promotion to senior manager after five years.",
+    "exampleMeaning": "그녀는 5년 만에 수석 매니저로 승진했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v049",
+    "word": "retirement",
+    "meaning": "은퇴, 퇴직",
+    "partOfSpeech": "n.",
+    "example": "The company held a farewell party for his retirement.",
+    "exampleMeaning": "회사는 그의 은퇴를 위해 송별회를 열었다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v050",
+    "word": "severance",
+    "meaning": "퇴직금",
+    "partOfSpeech": "n.",
+    "example": "Employees who are laid off will receive a severance package.",
+    "exampleMeaning": "해고되는 직원들은 퇴직금 패키지를 받을 것이다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v051",
+    "word": "payroll",
+    "meaning": "급여 지급 명부, 급여",
+    "partOfSpeech": "n.",
+    "example": "The payroll department processes salaries on the last day of each month.",
+    "exampleMeaning": "급여 부서는 매달 마지막 날에 급여를 처리한다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v052",
+    "word": "workforce",
+    "meaning": "인력, 노동력",
+    "partOfSpeech": "n.",
+    "example": "The factory's workforce has doubled since the expansion.",
+    "exampleMeaning": "그 공장의 인력은 확장 이후 두 배로 늘었다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v053",
+    "word": "personnel",
+    "meaning": "직원들, 인사부",
+    "partOfSpeech": "n.",
+    "example": "All personnel must wear identification badges inside the building.",
+    "exampleMeaning": "모든 직원은 건물 내부에서 신분증을 착용해야 한다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v054",
+    "word": "seminar",
+    "meaning": "세미나",
+    "partOfSpeech": "n.",
+    "example": "The company sponsored a seminar on digital marketing trends.",
+    "exampleMeaning": "그 회사는 디지털 마케팅 동향에 관한 세미나를 후원했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v055",
+    "word": "workshop",
+    "meaning": "워크숍",
+    "partOfSpeech": "n.",
+    "example": "Employees attended a workshop on effective communication skills.",
+    "exampleMeaning": "직원들은 효과적인 의사소통 기술에 관한 워크숍에 참석했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v056",
+    "word": "conference",
+    "meaning": "회의, 컨퍼런스",
+    "partOfSpeech": "n.",
+    "example": "The annual sales conference will be held in Chicago this year.",
+    "exampleMeaning": "연례 영업 컨퍼런스가 올해 시카고에서 개최될 것이다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v057",
+    "word": "agenda",
+    "meaning": "안건, 의제",
+    "partOfSpeech": "n.",
+    "example": "The first item on the agenda is the budget review.",
+    "exampleMeaning": "안건의 첫 번째 항목은 예산 검토이다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v058",
+    "word": "attendee",
+    "meaning": "참석자",
+    "partOfSpeech": "n.",
+    "example": "All attendees must register at the front desk before the event begins.",
+    "exampleMeaning": "모든 참석자는 행사가 시작되기 전에 안내 데스크에서 등록해야 한다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v059",
+    "word": "keynote",
+    "meaning": "기조연설",
+    "partOfSpeech": "n.",
+    "example": "The CEO delivered the keynote speech at the industry conference.",
+    "exampleMeaning": "CEO는 업계 컨퍼런스에서 기조연설을 했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v060",
+    "word": "venue",
+    "meaning": "장소, 개최지",
+    "partOfSpeech": "n.",
+    "example": "The hotel ballroom was chosen as the venue for the awards ceremony.",
+    "exampleMeaning": "그 호텔 연회장이 시상식 장소로 선정되었다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v061",
+    "word": "reception",
+    "meaning": "환영회, 접수처",
+    "partOfSpeech": "n.",
+    "example": "A reception will follow the ceremony in the lobby.",
+    "exampleMeaning": "로비에서 행사 후 환영회가 이어질 것이다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v062",
+    "word": "brochure",
+    "meaning": "안내 책자",
+    "partOfSpeech": "n.",
+    "example": "The travel agency printed new brochures for the summer season.",
+    "exampleMeaning": "그 여행사는 여름 시즌을 위한 새로운 안내 책자를 인쇄했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v063",
+    "word": "catalog",
+    "meaning": "카탈로그, 목록",
+    "partOfSpeech": "n.",
+    "example": "Customers can browse the online catalog before placing an order.",
+    "exampleMeaning": "고객들은 주문하기 전에 온라인 카탈로그를 둘러볼 수 있다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v064",
+    "word": "voucher",
+    "meaning": "상품권, 할인권",
+    "partOfSpeech": "n.",
+    "example": "Each guest received a voucher for a free breakfast.",
+    "exampleMeaning": "각 투숙객은 무료 조식 상품권을 받았다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v065",
+    "word": "surcharge",
+    "meaning": "추가 요금, 할증료",
+    "partOfSpeech": "n.",
+    "example": "A surcharge applies to orders delivered outside the city limits.",
+    "exampleMeaning": "시 경계 밖으로 배송되는 주문에는 추가 요금이 부과된다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v066",
+    "word": "tariff",
+    "meaning": "관세",
+    "partOfSpeech": "n.",
+    "example": "The new tariff on imported steel raised production costs.",
+    "exampleMeaning": "수입 철강에 대한 새로운 관세가 생산 비용을 인상시켰다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v067",
+    "word": "customs",
+    "meaning": "세관",
+    "partOfSpeech": "n.",
+    "example": "The shipment was delayed at customs for additional inspection.",
+    "exampleMeaning": "그 화물은 추가 검사를 위해 세관에서 지연되었다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v068",
+    "word": "shipment",
+    "meaning": "수송(품), 배송",
+    "partOfSpeech": "n.",
+    "example": "The latest shipment of laptops arrived a day early.",
+    "exampleMeaning": "최신 노트북 수송품이 하루 일찍 도착했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v069",
+    "word": "freight",
+    "meaning": "화물, 화물 운송",
+    "partOfSpeech": "n.",
+    "example": "The company reduced freight costs by switching to rail transport.",
+    "exampleMeaning": "그 회사는 철도 운송으로 전환하여 화물 운송 비용을 줄였다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v070",
+    "word": "cargo",
+    "meaning": "화물",
+    "partOfSpeech": "n.",
+    "example": "The ship's cargo included electronics and machine parts.",
+    "exampleMeaning": "그 배의 화물에는 전자제품과 기계 부품이 포함되어 있었다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v071",
+    "word": "courier",
+    "meaning": "택배 회사, 운송업자",
+    "partOfSpeech": "n.",
+    "example": "A courier delivered the contract for same-day signing.",
+    "exampleMeaning": "당일 서명을 위해 택배 기사가 계약서를 배달했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v072",
+    "word": "dispatch",
+    "meaning": "발송하다, 파견하다",
+    "partOfSpeech": "v.",
+    "example": "The manager will dispatch a technician to fix the printer.",
+    "exampleMeaning": "관리자는 프린터를 수리하도록 기술자를 파견할 것이다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v073",
+    "word": "packaging",
+    "meaning": "포장(재)",
+    "partOfSpeech": "n.",
+    "example": "The company redesigned its packaging to reduce plastic waste.",
+    "exampleMeaning": "그 회사는 플라스틱 폐기물을 줄이기 위해 포장을 재설계했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v074",
+    "word": "warehouse",
+    "meaning": "창고",
+    "partOfSpeech": "n.",
+    "example": "The new warehouse can store twice as many products as the old one.",
+    "exampleMeaning": "새 창고는 예전 창고보다 두 배 많은 제품을 보관할 수 있다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v075",
+    "word": "discard",
+    "meaning": "폐기하다, 버리다",
+    "partOfSpeech": "v.",
+    "example": "Employees are asked to discard confidential documents in the shredder bin.",
+    "exampleMeaning": "직원들은 기밀 문서를 파쇄함에 폐기하도록 요청받는다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v076",
+    "word": "retailer",
+    "meaning": "소매업자, 소매점",
+    "partOfSpeech": "n.",
+    "example": "The retailer offered a discount to loyal customers during the holidays.",
+    "exampleMeaning": "그 소매점은 연휴 기간 동안 단골 고객에게 할인을 제공했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v077",
+    "word": "wholesale",
+    "meaning": "도매의",
+    "partOfSpeech": "adj.",
+    "example": "The store buys electronics at wholesale prices and resells them.",
+    "exampleMeaning": "그 매장은 전자제품을 도매가로 구매하여 되판다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v078",
+    "word": "consumer",
+    "meaning": "소비자",
+    "partOfSpeech": "n.",
+    "example": "Consumer demand for eco-friendly products has increased sharply.",
+    "exampleMeaning": "친환경 제품에 대한 소비자 수요가 급격히 증가했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v079",
+    "word": "commodity",
+    "meaning": "상품, 원자재",
+    "partOfSpeech": "n.",
+    "example": "Coffee is one of the most traded commodities in the world.",
+    "exampleMeaning": "커피는 전 세계에서 가장 많이 거래되는 원자재 중 하나이다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v080",
+    "word": "merchandise",
+    "meaning": "상품",
+    "partOfSpeech": "n.",
+    "example": "The store displayed new merchandise in the front window.",
+    "exampleMeaning": "그 매장은 앞쪽 진열창에 새로운 상품을 진열했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v081",
+    "word": "inquiry",
+    "meaning": "문의",
+    "partOfSpeech": "n.",
+    "example": "The customer service team responds to every inquiry within 24 hours.",
+    "exampleMeaning": "고객 서비스팀은 모든 문의에 24시간 이내에 응답한다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v082",
+    "word": "complaint",
+    "meaning": "불만, 항의",
+    "partOfSpeech": "n.",
+    "example": "The manager handled the customer's complaint professionally.",
+    "exampleMeaning": "그 관리자는 고객의 불만을 전문적으로 처리했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v083",
+    "word": "refund",
+    "meaning": "환불",
+    "partOfSpeech": "n.",
+    "example": "Customers can request a full refund within thirty days of purchase.",
+    "exampleMeaning": "고객은 구매 후 30일 이내에 전액 환불을 요청할 수 있다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v084",
+    "word": "defective",
+    "meaning": "결함이 있는",
+    "partOfSpeech": "adj.",
+    "example": "The store replaced the defective product free of charge.",
+    "exampleMeaning": "그 매장은 결함이 있는 제품을 무료로 교체해 주었다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v085",
+    "word": "malfunction",
+    "meaning": "고장, 오작동",
+    "partOfSpeech": "n.",
+    "example": "A malfunction in the assembly line halted production for hours.",
+    "exampleMeaning": "조립 라인의 오작동으로 몇 시간 동안 생산이 중단되었다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v086",
+    "word": "troubleshoot",
+    "meaning": "(문제를) 해결하다",
+    "partOfSpeech": "v.",
+    "example": "The IT team was called to troubleshoot the network issue.",
+    "exampleMeaning": "IT팀은 네트워크 문제를 해결하기 위해 호출되었다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v087",
+    "word": "resolve",
+    "meaning": "해결하다",
+    "partOfSpeech": "v.",
+    "example": "The two departments met to resolve the scheduling conflict.",
+    "exampleMeaning": "두 부서는 일정 충돌을 해결하기 위해 회의를 가졌다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v088",
+    "word": "satisfaction",
+    "meaning": "만족(도)",
+    "partOfSpeech": "n.",
+    "example": "Customer satisfaction scores improved after the new policy was introduced.",
+    "exampleMeaning": "새로운 정책이 도입된 후 고객 만족도 점수가 향상되었다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v089",
+    "word": "loyalty",
+    "meaning": "충성도, 단골(도)",
+    "partOfSpeech": "n.",
+    "example": "The airline rewards customer loyalty with frequent flyer miles.",
+    "exampleMeaning": "그 항공사는 단골 고객에게 마일리지로 보상한다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v090",
+    "word": "subscription",
+    "meaning": "구독",
+    "partOfSpeech": "n.",
+    "example": "The magazine offers a discounted subscription for new readers.",
+    "exampleMeaning": "그 잡지는 신규 독자에게 할인된 구독료를 제공한다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v091",
+    "word": "subscriber",
+    "meaning": "구독자, 가입자",
+    "partOfSpeech": "n.",
+    "example": "The streaming service now has over ten million subscribers.",
+    "exampleMeaning": "그 스트리밍 서비스는 이제 천만 명이 넘는 구독자를 보유하고 있다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v092",
+    "word": "advertisement",
+    "meaning": "광고",
+    "partOfSpeech": "n.",
+    "example": "The advertisement for the new product will air during the evening news.",
+    "exampleMeaning": "그 신제품 광고는 저녁 뉴스 시간에 방영될 것이다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v093",
+    "word": "commercial",
+    "meaning": "(텔레비전, 라디오) 광고",
+    "partOfSpeech": "n.",
+    "example": "The company filmed a commercial featuring its latest smartphone.",
+    "exampleMeaning": "그 회사는 최신 스마트폰을 소개하는 광고를 촬영했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v094",
+    "word": "promote",
+    "meaning": "홍보하다, 승진시키다",
+    "partOfSpeech": "v.",
+    "example": "The store is running a campaign to promote its summer collection.",
+    "exampleMeaning": "그 매장은 여름 컬렉션을 홍보하기 위한 캠페인을 진행하고 있다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v095",
+    "word": "sponsorship",
+    "meaning": "후원, 협찬",
+    "partOfSpeech": "n.",
+    "example": "The marathon received sponsorship from several local businesses.",
+    "exampleMeaning": "그 마라톤 대회는 여러 지역 업체들로부터 후원을 받았다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v096",
+    "word": "brand",
+    "meaning": "브랜드, 상표",
+    "partOfSpeech": "n.",
+    "example": "The company built a strong brand through consistent advertising.",
+    "exampleMeaning": "그 회사는 일관된 광고를 통해 강력한 브랜드를 구축했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v097",
+    "word": "campaign",
+    "meaning": "캠페인, 운동",
+    "partOfSpeech": "n.",
+    "example": "The advertising campaign increased sales by twenty percent.",
+    "exampleMeaning": "그 광고 캠페인은 매출을 20퍼센트 증가시켰다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v098",
+    "word": "demographic",
+    "meaning": "인구 통계학적 특성, 대상층",
+    "partOfSpeech": "n.",
+    "example": "The product was designed to appeal to a younger demographic.",
+    "exampleMeaning": "그 제품은 더 젊은 대상층의 관심을 끌도록 설계되었다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v099",
+    "word": "survey",
+    "meaning": "설문 조사",
+    "partOfSpeech": "n.",
+    "example": "The company conducted a survey to measure employee satisfaction.",
+    "exampleMeaning": "그 회사는 직원 만족도를 측정하기 위해 설문 조사를 실시했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v100",
+    "word": "questionnaire",
+    "meaning": "설문지",
+    "partOfSpeech": "n.",
+    "example": "Participants were asked to fill out a short questionnaire after the event.",
+    "exampleMeaning": "참가자들은 행사 후 짧은 설문지를 작성하도록 요청받았다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v101",
+    "word": "feedback",
+    "meaning": "피드백, 의견",
+    "partOfSpeech": "n.",
+    "example": "The manager gave constructive feedback after the presentation.",
+    "exampleMeaning": "관리자는 발표 후 건설적인 피드백을 주었다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v102",
+    "word": "revenue",
+    "meaning": "수익, 매출",
+    "partOfSpeech": "n.",
+    "example": "The company's revenue grew significantly last quarter.",
+    "exampleMeaning": "그 회사의 매출은 지난 분기에 크게 증가했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v103",
+    "word": "profit",
+    "meaning": "이익, 수익",
+    "partOfSpeech": "n.",
+    "example": "The firm reported a record profit for the fiscal year.",
+    "exampleMeaning": "그 회사는 회계연도 기준 사상 최고 이익을 보고했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v104",
+    "word": "expenditure",
+    "meaning": "지출, 비용",
+    "partOfSpeech": "n.",
+    "example": "The finance team reviewed all expenditures before approving the budget.",
+    "exampleMeaning": "재무팀은 예산을 승인하기 전에 모든 지출을 검토했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v105",
+    "word": "budget",
+    "meaning": "예산",
+    "partOfSpeech": "n.",
+    "example": "The marketing department exceeded its budget for the campaign.",
+    "exampleMeaning": "마케팅 부서는 캠페인 예산을 초과했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v106",
+    "word": "asset",
+    "meaning": "자산",
+    "partOfSpeech": "n.",
+    "example": "The company's most valuable asset is its skilled workforce.",
+    "exampleMeaning": "그 회사의 가장 소중한 자산은 숙련된 인력이다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v107",
+    "word": "liability",
+    "meaning": "부채, 책임",
+    "partOfSpeech": "n.",
+    "example": "The accountant listed all liabilities on the balance sheet.",
+    "exampleMeaning": "회계사는 대차대조표에 모든 부채를 기재했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v108",
+    "word": "equity",
+    "meaning": "지분, 자기자본",
+    "partOfSpeech": "n.",
+    "example": "Investors received equity in the startup in exchange for funding.",
+    "exampleMeaning": "투자자들은 자금 지원의 대가로 그 스타트업의 지분을 받았다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v109",
+    "word": "dividend",
+    "meaning": "배당금",
+    "partOfSpeech": "n.",
+    "example": "Shareholders will receive a dividend at the end of the year.",
+    "exampleMeaning": "주주들은 연말에 배당금을 받을 것이다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v110",
+    "word": "audit",
+    "meaning": "감사",
+    "partOfSpeech": "n.",
+    "example": "An external audit confirmed the accuracy of the financial statements.",
+    "exampleMeaning": "외부 감사 결과 재무제표의 정확성이 확인되었다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v111",
+    "word": "auditor",
+    "meaning": "감사관",
+    "partOfSpeech": "n.",
+    "example": "The auditor reviewed the company's records for discrepancies.",
+    "exampleMeaning": "감사관은 회사 기록에 불일치가 있는지 검토했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v112",
+    "word": "ledger",
+    "meaning": "(회계) 장부",
+    "partOfSpeech": "n.",
+    "example": "The bookkeeper updated the ledger with the latest transactions.",
+    "exampleMeaning": "경리 담당자는 최신 거래 내역으로 장부를 갱신했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v113",
+    "word": "bookkeeping",
+    "meaning": "부기, 장부 관리",
+    "partOfSpeech": "n.",
+    "example": "She took a course in bookkeeping to manage the small business finances.",
+    "exampleMeaning": "그녀는 소규모 사업 재무를 관리하기 위해 부기 강좌를 수강했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v114",
+    "word": "transaction",
+    "meaning": "거래",
+    "partOfSpeech": "n.",
+    "example": "Every transaction is recorded in the company's database.",
+    "exampleMeaning": "모든 거래는 회사 데이터베이스에 기록된다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v115",
+    "word": "installment",
+    "meaning": "할부(금)",
+    "partOfSpeech": "n.",
+    "example": "The customer chose to pay for the furniture in monthly installments.",
+    "exampleMeaning": "그 고객은 가구 값을 매달 할부로 지불하기로 했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v116",
+    "word": "premium",
+    "meaning": "보험료, 할증금",
+    "partOfSpeech": "n.",
+    "example": "The insurance premium increased after the policy was renewed.",
+    "exampleMeaning": "보험 정책이 갱신된 후 보험료가 인상되었다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v117",
+    "word": "insurance",
+    "meaning": "보험",
+    "partOfSpeech": "n.",
+    "example": "The company provides health insurance for all full-time employees.",
+    "exampleMeaning": "그 회사는 모든 정규직 직원에게 건강 보험을 제공한다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v118",
+    "word": "policyholder",
+    "meaning": "보험 계약자",
+    "partOfSpeech": "n.",
+    "example": "Policyholders must notify the insurer within a week of any accident.",
+    "exampleMeaning": "보험 계약자는 사고 발생 후 일주일 이내에 보험사에 통보해야 한다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v119",
+    "word": "claim",
+    "meaning": "(보험금 등의) 청구",
+    "partOfSpeech": "n.",
+    "example": "She filed a claim with the insurance company after the car accident.",
+    "exampleMeaning": "그녀는 교통사고 후 보험사에 보험금을 청구했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v120",
+    "word": "underwrite",
+    "meaning": "(보험을) 인수하다, 보증하다",
+    "partOfSpeech": "v.",
+    "example": "The bank agreed to underwrite the company's new bond issue.",
+    "exampleMeaning": "그 은행은 회사의 신규 채권 발행을 보증하는 데 동의했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v121",
+    "word": "stipulate",
+    "meaning": "규정하다, 명시하다",
+    "partOfSpeech": "v.",
+    "example": "The contract stipulates that payment must be made within 60 days.",
+    "exampleMeaning": "그 계약서는 60일 이내에 지불이 이루어져야 한다고 규정한다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v122",
+    "word": "clause",
+    "meaning": "(계약서의) 조항",
+    "partOfSpeech": "n.",
+    "example": "A confidentiality clause was added to the employment contract.",
+    "exampleMeaning": "고용 계약서에 기밀 유지 조항이 추가되었다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v123",
+    "word": "provision",
+    "meaning": "(법률 등의) 조항, 대비",
+    "partOfSpeech": "n.",
+    "example": "The new law includes provisions for small business tax relief.",
+    "exampleMeaning": "그 새 법에는 중소기업 세금 감면에 관한 조항이 포함되어 있다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v124",
+    "word": "breach",
+    "meaning": "위반",
+    "partOfSpeech": "n.",
+    "example": "The supplier's failure to deliver on time was considered a breach of contract.",
+    "exampleMeaning": "공급업체가 제때 납품하지 못한 것은 계약 위반으로 간주되었다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v125",
+    "word": "infringe",
+    "meaning": "침해하다",
+    "partOfSpeech": "v.",
+    "example": "The company was sued for infringing on a competitor's patent.",
+    "exampleMeaning": "그 회사는 경쟁사의 특허를 침해했다는 이유로 소송을 당했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v126",
+    "word": "liable",
+    "meaning": "법적 책임이 있는",
+    "partOfSpeech": "adj.",
+    "example": "The manufacturer is liable for any defects in the product.",
+    "exampleMeaning": "제조업체는 제품의 모든 결함에 대해 법적 책임이 있다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v127",
+    "word": "binding",
+    "meaning": "구속력이 있는",
+    "partOfSpeech": "adj.",
+    "example": "The agreement becomes legally binding once both parties sign it.",
+    "exampleMeaning": "그 합의는 양측이 서명하는 즉시 법적 구속력을 갖는다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v128",
+    "word": "arbitration",
+    "meaning": "중재",
+    "partOfSpeech": "n.",
+    "example": "The dispute was settled through arbitration instead of a lawsuit.",
+    "exampleMeaning": "그 분쟁은 소송 대신 중재를 통해 해결되었다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v129",
+    "word": "litigation",
+    "meaning": "소송",
+    "partOfSpeech": "n.",
+    "example": "The company hired a law firm to handle the ongoing litigation.",
+    "exampleMeaning": "그 회사는 진행 중인 소송을 처리하기 위해 법률 회사를 고용했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v130",
+    "word": "plaintiff",
+    "meaning": "원고",
+    "partOfSpeech": "n.",
+    "example": "The plaintiff argued that the contract terms were unfair.",
+    "exampleMeaning": "원고는 계약 조건이 불공정하다고 주장했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v131",
+    "word": "defendant",
+    "meaning": "피고",
+    "partOfSpeech": "n.",
+    "example": "The defendant's lawyer requested more time to prepare the case.",
+    "exampleMeaning": "피고 측 변호사는 사건을 준비할 시간을 더 요청했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v132",
+    "word": "verdict",
+    "meaning": "판결, 평결",
+    "partOfSpeech": "n.",
+    "example": "The jury reached a verdict after several hours of deliberation.",
+    "exampleMeaning": "배심원단은 몇 시간의 심의 끝에 평결에 도달했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v133",
+    "word": "patent",
+    "meaning": "특허(권)",
+    "partOfSpeech": "n.",
+    "example": "The inventor filed a patent for the new device.",
+    "exampleMeaning": "그 발명가는 신제품에 대한 특허를 출원했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v134",
+    "word": "trademark",
+    "meaning": "상표",
+    "partOfSpeech": "n.",
+    "example": "The company registered its logo as a trademark.",
+    "exampleMeaning": "그 회사는 자사 로고를 상표로 등록했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v135",
+    "word": "copyright",
+    "meaning": "저작권",
+    "partOfSpeech": "n.",
+    "example": "The publisher holds the copyright to all the textbooks.",
+    "exampleMeaning": "그 출판사는 모든 교과서에 대한 저작권을 보유하고 있다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v136",
+    "word": "proprietary",
+    "meaning": "독점의, 소유의",
+    "partOfSpeech": "adj.",
+    "example": "The software uses a proprietary algorithm developed in-house.",
+    "exampleMeaning": "그 소프트웨어는 사내에서 개발한 독점 알고리즘을 사용한다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v137",
+    "word": "confidential",
+    "meaning": "기밀의",
+    "partOfSpeech": "adj.",
+    "example": "All salary information is kept strictly confidential.",
+    "exampleMeaning": "모든 급여 정보는 엄격하게 기밀로 유지된다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v138",
+    "word": "disclosure",
+    "meaning": "공개, 발표",
+    "partOfSpeech": "n.",
+    "example": "Full disclosure of the financial risks is required by law.",
+    "exampleMeaning": "재정적 위험에 대한 완전한 공개는 법률로 요구된다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v139",
+    "word": "transparency",
+    "meaning": "투명성",
+    "partOfSpeech": "n.",
+    "example": "The new policy aims to increase transparency in hiring decisions.",
+    "exampleMeaning": "새로운 정책은 채용 결정의 투명성을 높이는 것을 목표로 한다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v140",
+    "word": "accountability",
+    "meaning": "책임, 의무",
+    "partOfSpeech": "n.",
+    "example": "The manager emphasized accountability for missed deadlines.",
+    "exampleMeaning": "관리자는 마감 기한을 놓친 것에 대한 책임을 강조했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v141",
+    "word": "governance",
+    "meaning": "지배 구조, 관리",
+    "partOfSpeech": "n.",
+    "example": "The board reviewed the company's corporate governance policies.",
+    "exampleMeaning": "이사회는 회사의 기업 지배 구조 정책을 검토했다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v142",
+    "word": "stakeholder",
+    "meaning": "이해관계자",
+    "partOfSpeech": "n.",
+    "example": "All stakeholders were invited to the annual review meeting.",
+    "exampleMeaning": "모든 이해관계자가 연례 검토 회의에 초대되었다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v143",
+    "word": "investor",
+    "meaning": "투자자",
+    "partOfSpeech": "n.",
+    "example": "The startup attracted several investors after the product launch.",
+    "exampleMeaning": "그 스타트업은 제품 출시 후 여러 투자자를 유치했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v144",
+    "word": "portfolio",
+    "meaning": "(투자) 포트폴리오",
+    "partOfSpeech": "n.",
+    "example": "The financial advisor recommended diversifying the investment portfolio.",
+    "exampleMeaning": "재무 상담사는 투자 포트폴리오를 다변화할 것을 권장했다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v145",
+    "word": "acquisition",
+    "meaning": "인수, 취득",
+    "partOfSpeech": "n.",
+    "example": "The acquisition of the smaller firm doubled the company's market share.",
+    "exampleMeaning": "그 소규모 회사의 인수로 그 회사의 시장 점유율이 두 배가 되었다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v146",
+    "word": "conglomerate",
+    "meaning": "복합 기업",
+    "partOfSpeech": "n.",
+    "example": "The conglomerate owns businesses in electronics, food, and finance.",
+    "exampleMeaning": "그 복합 기업은 전자, 식품, 금융 분야의 사업체를 소유하고 있다.",
+    "difficulty": 3
+  },
+  {
+    "id": "v147",
+    "word": "franchise",
+    "meaning": "가맹점, 프랜차이즈",
+    "partOfSpeech": "n.",
+    "example": "She opened a franchise of the popular coffee chain.",
+    "exampleMeaning": "그녀는 인기 있는 커피 체인의 가맹점을 열었다.",
+    "difficulty": 2
+  },
+  {
+    "id": "v148",
+    "word": "outlet",
+    "meaning": "매장, 직판점",
+    "partOfSpeech": "n.",
+    "example": "The factory outlet sells last season's items at reduced prices.",
+    "exampleMeaning": "그 아울렛 매장은 지난 시즌 상품을 할인된 가격에 판매한다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v149",
+    "word": "headquarters",
+    "meaning": "본사",
+    "partOfSpeech": "n.",
+    "example": "The company's headquarters relocated to a larger building downtown.",
+    "exampleMeaning": "그 회사의 본사는 시내의 더 큰 건물로 이전했다.",
+    "difficulty": 1
+  },
+  {
+    "id": "v150",
+    "word": "affiliate",
+    "meaning": "계열사, 제휴사",
+    "partOfSpeech": "n.",
+    "example": "The bank's affiliate offers insurance products to customers.",
+    "exampleMeaning": "그 은행의 계열사는 고객에게 보험 상품을 제공한다.",
+    "difficulty": 2
   }
 ]
