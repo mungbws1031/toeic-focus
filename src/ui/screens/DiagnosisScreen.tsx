@@ -87,25 +87,38 @@ export function DiagnosisScreen({ onComplete }: DiagnosisScreenProps) {
   const [index, setIndex] = useState(0);
   const [vocabCorrect, setVocabCorrect] = useState(0);
   const [grammarCorrect, setGrammarCorrect] = useState(0);
+  const [answered, setAnswered] = useState<{
+    selectedIndex: number;
+    isCorrect: boolean;
+  } | null>(null);
 
   const current = questions[index];
   const total = questions.length;
 
-  function handleAnswer(selectedIndex: number) {
-    const isCorrect = selectedIndex === current.correctIndex;
+  function handleSelect(selectedIndex: number) {
+    if (answered) return;
+    setAnswered({
+      selectedIndex,
+      isCorrect: selectedIndex === current.correctIndex,
+    });
+  }
+
+  function handleNext() {
+    if (!answered) return;
     const nextVocabCorrect =
       current.type === "vocab"
-        ? vocabCorrect + (isCorrect ? 1 : 0)
+        ? vocabCorrect + (answered.isCorrect ? 1 : 0)
         : vocabCorrect;
     const nextGrammarCorrect =
       current.type === "grammar"
-        ? grammarCorrect + (isCorrect ? 1 : 0)
+        ? grammarCorrect + (answered.isCorrect ? 1 : 0)
         : grammarCorrect;
 
     if (index + 1 < total) {
       setVocabCorrect(nextVocabCorrect);
       setGrammarCorrect(nextGrammarCorrect);
       setIndex(index + 1);
+      setAnswered(null);
       return;
     }
 
@@ -157,25 +170,70 @@ export function DiagnosisScreen({ onComplete }: DiagnosisScreenProps) {
           maxWidth: 360,
         }}
       >
-        {current.options.map((option, optionIndex) => (
-          <button
-            key={`${index}-${optionIndex}`}
-            type="button"
-            onClick={() => handleAnswer(optionIndex)}
-            style={{
-              fontSize: 16,
-              padding: "14px 20px",
-              borderRadius: 12,
-              border: "1px solid #d1d5db",
-              background: "#fff",
-              cursor: "pointer",
-              textAlign: "left",
-            }}
-          >
-            {option}
-          </button>
-        ))}
+        {current.options.map((option, optionIndex) => {
+          const isSelected = answered?.selectedIndex === optionIndex;
+          const isCorrectOption = optionIndex === current.correctIndex;
+          const showCorrect = answered !== null && isCorrectOption;
+          const showWrong = answered !== null && isSelected && !isCorrectOption;
+          return (
+            <button
+              key={`${index}-${optionIndex}`}
+              type="button"
+              onClick={() => handleSelect(optionIndex)}
+              disabled={answered !== null}
+              style={{
+                fontSize: 16,
+                padding: "14px 20px",
+                borderRadius: 12,
+                border: showCorrect
+                  ? "2px solid #16a34a"
+                  : showWrong
+                    ? "2px solid #dc2626"
+                    : "1px solid #d1d5db",
+                background: showCorrect
+                  ? "#f0fdf4"
+                  : showWrong
+                    ? "#fef2f2"
+                    : "#fff",
+                cursor: answered ? "default" : "pointer",
+                textAlign: "left",
+              }}
+            >
+              {option}
+              {showCorrect ? " ✓" : showWrong ? " ✕" : ""}
+            </button>
+          );
+        })}
       </div>
+      {answered && (
+        <div
+          style={{
+            fontSize: 16,
+            fontWeight: 700,
+            color: answered.isCorrect ? "#16a34a" : "#dc2626",
+          }}
+        >
+          {answered.isCorrect ? "정답이에요!" : "아쉬워요"}
+        </div>
+      )}
+      {answered && (
+        <button
+          type="button"
+          onClick={handleNext}
+          style={{
+            fontSize: 16,
+            fontWeight: 600,
+            padding: "14px 32px",
+            borderRadius: 999,
+            border: "none",
+            background: "#4f46e5",
+            color: "#fff",
+            cursor: "pointer",
+          }}
+        >
+          {index + 1 < total ? "다음" : "결과 보기"}
+        </button>
+      )}
     </div>
   );
 }

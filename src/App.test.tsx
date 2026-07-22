@@ -258,6 +258,8 @@ describe("App", () => {
       fireEvent.click(button);
     }
 
+    fireEvent.click(await screen.findByRole("button", { name: "확인" }));
+
     // 완료 후 App이 다시 홈 화면으로 전환되므로 "지금 3분" 버튼이 다시 보여야 한다.
     expect(
       await screen.findByRole("button", { name: "지금 3분" }),
@@ -289,6 +291,8 @@ describe("App", () => {
       fireEvent.click(button);
     }
 
+    fireEvent.click(await screen.findByRole("button", { name: "확인" }));
+
     await screen.findByRole("button", { name: "지금 3분" });
 
     const cards = await db.cards.toArray();
@@ -309,6 +313,10 @@ describe("App", () => {
     for (let i = 0; i < 12; i++) {
       const buttons = await screen.findAllByRole("button");
       fireEvent.click(buttons[0]);
+      const nextButton = await screen.findByRole("button", {
+        name: i + 1 < 12 ? "다음" : "결과 보기",
+      });
+      fireEvent.click(nextButton);
     }
 
     // 진단 완료 후 App이 홈으로 돌아오고, 이미 진단을 마쳤으므로 유도 버튼은 더 이상 없다.

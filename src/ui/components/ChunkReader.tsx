@@ -32,6 +32,10 @@ export function ChunkReader({ sentence, onComplete }: ChunkReaderProps) {
   const [state, setState] = useState<ChunkReadingState>(() =>
     startChunkReading(sentence.chunks),
   );
+  const [lastFeedback, setLastFeedback] = useState<{
+    wasCorrect: boolean;
+    correctMeaning: string;
+  } | null>(null);
   const hasCompletedRef = useRef(false);
 
   const currentChunk = state.completed ? null : state.chunks[state.currentIndex];
@@ -60,7 +64,13 @@ export function ChunkReader({ sentence, onComplete }: ChunkReaderProps) {
   }
 
   function handleChoose(choice: string) {
-    const { nextState } = answerCurrentChunk(state, choice, distractorMeaning);
+    if (!currentChunk) return;
+    const { nextState, wasCorrect } = answerCurrentChunk(
+      state,
+      choice,
+      distractorMeaning,
+    );
+    setLastFeedback({ wasCorrect, correctMeaning: currentChunk.meaning });
     setState(nextState);
   }
 
@@ -75,6 +85,20 @@ export function ChunkReader({ sentence, onComplete }: ChunkReaderProps) {
         maxWidth: 480,
       }}
     >
+      {lastFeedback && (
+        <div
+          role="status"
+          style={{
+            fontSize: 14,
+            fontWeight: 600,
+            color: lastFeedback.wasCorrect ? "#16a34a" : "#dc2626",
+          }}
+        >
+          {lastFeedback.wasCorrect
+            ? "방금 청크 정답이에요!"
+            : `방금 청크는 아쉬워요 · 정답: ${lastFeedback.correctMeaning}`}
+        </div>
+      )}
       <div style={{ fontSize: 28, fontWeight: 700, textAlign: "center" }}>
         {currentChunk?.text}
       </div>

@@ -32,6 +32,9 @@ describe("OneSentenceDailyScreen", () => {
     );
 
     answerAllCorrectly(sentence.chunks);
+    expect(onComplete).not.toHaveBeenCalled();
+
+    fireEvent.click(screen.getByRole("button", { name: "확인" }));
 
     expect(onComplete).toHaveBeenCalledTimes(1);
     expect(onComplete).toHaveBeenCalledWith({
@@ -65,6 +68,7 @@ describe("OneSentenceDailyScreen", () => {
     fireEvent.click(wrongButton!);
 
     answerAllCorrectly(sentence.chunks.slice(1));
+    fireEvent.click(screen.getByRole("button", { name: "확인" }));
 
     expect(onComplete).toHaveBeenCalledTimes(1);
     expect(onComplete).toHaveBeenCalledWith({

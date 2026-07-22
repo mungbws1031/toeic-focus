@@ -13,6 +13,11 @@ export interface OneSentenceDailyResult {
   sentenceCardTrigger: SentenceCardTrigger | null;
 }
 
+interface PendingResult extends OneSentenceDailyResult {
+  correctCount: number;
+  totalChunks: number;
+}
+
 export interface OneSentenceDailyScreenProps {
   sentence: SentenceItem;
   onComplete: (result: OneSentenceDailyResult) => void;
@@ -28,7 +33,7 @@ export function OneSentenceDailyScreen({
   onComplete,
 }: OneSentenceDailyScreenProps) {
   const startedAtRef = useRef(Date.now());
-  const [result, setResult] = useState<OneSentenceDailyResult | null>(null);
+  const [result, setResult] = useState<PendingResult | null>(null);
 
   function handleChunkComplete({
     correctCount,
@@ -49,12 +54,20 @@ export function OneSentenceDailyScreen({
       evaluation,
       sentence.id,
     );
-    const nextResult: OneSentenceDailyResult = {
+    setResult({
       passed: evaluation.passed,
       sentenceCardTrigger,
-    };
-    setResult(nextResult);
-    onComplete(nextResult);
+      correctCount,
+      totalChunks,
+    });
+  }
+
+  function handleConfirm() {
+    if (!result) return;
+    onComplete({
+      passed: result.passed,
+      sentenceCardTrigger: result.sentenceCardTrigger,
+    });
   }
 
   if (result) {
@@ -73,6 +86,30 @@ export function OneSentenceDailyScreen({
         <div style={{ fontSize: 24, fontWeight: 700 }}>
           {result.passed ? "오늘 문장 완료!" : "오늘 문장 도전 완료"}
         </div>
+        <div style={{ fontSize: 16, color: "#6b7280" }}>
+          {result.correctCount} / {result.totalChunks} 청크 정답
+        </div>
+        {!result.passed && (
+          <div style={{ fontSize: 14, color: "#6b7280" }}>
+            이 문장은 복습 카드로 저장해서 다시 만날 수 있게 할게요
+          </div>
+        )}
+        <button
+          type="button"
+          onClick={handleConfirm}
+          style={{
+            fontSize: 16,
+            fontWeight: 600,
+            padding: "14px 32px",
+            borderRadius: 999,
+            border: "none",
+            background: "#4f46e5",
+            color: "#fff",
+            cursor: "pointer",
+          }}
+        >
+          확인
+        </button>
       </div>
     );
   }
